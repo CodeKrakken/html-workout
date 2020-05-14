@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background: black;
+  color: white
+}
+
+.lists {
+  text-align: left
+}
+
+table {
+  text-align: center;
+}
+
+#center {
+  margin-left: auto;
+  margin-right: auto
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background: yellowgreen
+}
+
+.simple tr:nth-child(2n+1) {
+  background: burlywood
+}
+
+.simple tr:nth-child(2n+0) {
+  background: cyan
+}
+
+.complex {
+  caption-side: bottom;
+}
+
+.complex td:nth-child(odd) {
+  color: red;
+  background: black
+}
+
+.complex td:last-child {
+  background: blue
+}
+
+.second-column {
+  background: pink
+}
+
+.backgrounds-table {
+  caption-side: bottom;
+  padding: 30px;
+}
+
+.borders-table {
+  caption-side: bottom
+}
+
+.borders-table td:nth-child(n+2) {   
+  border-left: 6px solid green;
+  border-right: 6px double slateblue;
+  border-bottom: 6px solid firebrick;
+  border-top: 6px double violet
+}
+
+.top-link {
+  height: 20px;
+}
