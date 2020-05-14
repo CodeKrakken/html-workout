@@ -53,6 +53,10 @@ th {
   padding: 30px;
 }
 
+.borders-table {
+  caption-side: bottom
+}
+
 .borders-table td:nth-child(n+2) {   
   border-left: 6px solid green;
   border-right: 6px double slateblue;
