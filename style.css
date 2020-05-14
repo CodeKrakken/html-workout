@@ -1,14 +1,28 @@
 table {
-  padding: 10px;
-  align: center;
+  text-align: center;
 }
 
-td, th {
+th, td {
   padding: 10px;
-  align: center;
-  valign: middle
 }
 
-tfoot {
-  align: center
+th {
+  background: yellowgreen
+}
+
+td:nth-child(odd) {
+  color: red;
+  background: black
+}
+
+td:last-child {
+  background: blue
+}
+
+.second-column {
+  background: pink
+}
+
+.complex {
+  caption-side: bottom
 }
