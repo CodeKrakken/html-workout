@@ -1,3 +1,7 @@
+body {
+  text-align: center
+}
+
 table {
   text-align: center;
 }
@@ -10,12 +14,20 @@ th {
   background: yellowgreen
 }
 
-td:nth-child(odd) {
+table.simple tr:nth-child(2n+1) {
+  background: burlywood
+}
+
+table.simple tr:nth-child(2n+0) {
+  background: cyan
+}
+
+table.complex td:nth-child(odd) {
   color: red;
   background: black
 }
 
-td:last-child {
+table.complex td:last-child {
   background: blue
 }
 
@@ -24,5 +36,5 @@ td:last-child {
 }
 
 .complex {
-  caption-side: bottom
+  caption-side: bottom;
 }
