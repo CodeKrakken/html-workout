@@ -10,7 +10,7 @@ table {
   text-align: center;
 }
 
-table#center {
+#center {
   margin-left: auto;
   margin-right: auto
 }
@@ -23,20 +23,24 @@ th {
   background: yellowgreen
 }
 
-table.simple tr:nth-child(2n+1) {
+.simple tr:nth-child(2n+1) {
   background: burlywood
 }
 
-table.simple tr:nth-child(2n+0) {
+.simple tr:nth-child(2n+0) {
   background: cyan
 }
 
-table.complex td:nth-child(odd) {
+.complex {
+  caption-side: bottom;
+}
+
+.complex td:nth-child(odd) {
   color: red;
   background: black
 }
 
-table.complex td:last-child {
+.complex td:last-child {
   background: blue
 }
 
@@ -44,10 +48,7 @@ table.complex td:last-child {
   background: pink
 }
 
-.complex {
+.backgrounds-table {
   caption-side: bottom;
-}
-
-.eight-percent {
-  background: "2309.jpg"
+  padding: 30px;
 }
