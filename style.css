@@ -38,3 +38,16 @@ table.complex td:last-child {
 .complex {
   caption-side: bottom;
 }
+
+.eight-percent {
+  background: "2309.jpg"
+}
+
+.lists {
+  text-align: left
+}
+
+table#center {
+  margin-left: auto;
+  margin-right: auto
+}
