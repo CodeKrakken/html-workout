@@ -2,8 +2,17 @@ body {
   text-align: center
 }
 
+.lists {
+  text-align: left
+}
+
 table {
   text-align: center;
+}
+
+table#center {
+  margin-left: auto;
+  margin-right: auto
 }
 
 th, td {
@@ -41,13 +50,4 @@ table.complex td:last-child {
 
 .eight-percent {
   background: "2309.jpg"
-}
-
-.lists {
-  text-align: left
-}
-
-table#center {
-  margin-left: auto;
-  margin-right: auto
 }
